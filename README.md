@@ -1,32 +1,21 @@
-# React + TypeScript + Vite
+# 🐷 Mi Web - Control de Chanchitos
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Sitio web y repositorio dedicado a la gestión, registro y seguimiento del estado anímico de los chanchitos.
 
-Currently, two official plugins are available:
+##  Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El proyecto clasifica y documenta los diferentes estados de los chanchitos:
+- **Chanchito Feliz:** Estado óptimo, sin errores y listo para producción.
+- **Chanchito Triste:** Requiere atención, depuración o café.
 
-## React Compiler
+##  Estructura del Proyecto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- `archivo1.txt`: Registro inicial de chanchitos felices.
+- `archivo2.txt`: Actualizaciones de estado.
+- `docs.txt` & `contact.txt`: Información de soporte.
 
-## Expanding the Oxlint configuration
+##  Contribución
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Crear un Issue describiendo el cambio.
+2. Crear una rama siguiendo la convención (`feature/`, `fix/`, `docs/`).
+3. Enviar un Pull Request vinculado al Issue (`Closes #ID`).
